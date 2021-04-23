@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Azo';
+    src: url('assets/font/azo_sans_thin.otf') format('otf');
+  }
+
+@tailwind utilities;
